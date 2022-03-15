@@ -5,7 +5,7 @@ export const toCamelCase = (str) => {
 }
 
 export const toSnakeCase = (str) => {
-  return str.replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`);
+  return toCamelCase(str).replace(/[A-Z]/g, (c) => `_${c.toLowerCase()}`);
 }
 
 // Convert any string to pascal case

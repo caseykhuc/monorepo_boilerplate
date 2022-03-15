@@ -1,7 +1,8 @@
 'use strict';
+const stringUtils = require('../string')
 
-module.exports = utility;
+module.exports = utility();
 
 function utility() {
-    // TODO
+    return stringUtils
 }
