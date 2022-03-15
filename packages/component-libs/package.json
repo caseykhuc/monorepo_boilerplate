@@ -1,5 +1,5 @@
 {
-  "name": "component-libs",
+  "name": "@khuctrang-monorepo/component-libs",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,6 +7,7 @@
     "@chakra-ui/react": "^1.8.1",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@khuctrang-monorepo/utility": "1.0.0",
     "framer-motion": "^5",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
@@ -32,5 +33,25 @@
     "build": "webpack --mode production",
     "start": "webpack serve --config webpack.config.js",
     "lint": "eslint --debug src/index.js"
+  },
+  "description": "> TODO: description",
+  "author": "khuctrang <khuctrang1812@gmail.com>",
+  "homepage": "https://github.com/khuctrang/monorepo_boilerplate#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khuctrang/monorepo_boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/khuctrang/monorepo_boilerplate/issues"
   }
 }
