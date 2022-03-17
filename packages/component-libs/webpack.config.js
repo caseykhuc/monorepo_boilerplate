@@ -4,7 +4,7 @@ const HtmlWebPackPlugin = require('html-webpack-plugin');
 
 const htmlPlugin = new HtmlWebPackPlugin({
   template: './public/index.html',
-  filename: './index.html'
+  filename: './index.html',
 });
 
 module.exports = {
@@ -13,22 +13,33 @@ module.exports = {
   output: {
     filename: 'bundle.js',
     path: path.resolve('dist'),
-    publicPath: '/'
+    publicPath: '/',
   },
   module: {
     rules: [
       {
         test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
-        use: 'babel-loader'
-      }
-    ]
+        use: 'babel-loader',
+      },
+      {
+        test: /\.(png|jpg)$/i,
+        type: 'asset',
+      },
+      {
+        test: /\.svg/,
+        type: 'asset/inline',
+      },
+    ],
   },
   plugins: [htmlPlugin],
   resolve: {
     alias: {
-      components: path.resolve(__dirname, 'src/components')
+      components: path.resolve(__dirname, 'src/components'),
     },
-    extensions: ['.js', '.jsx']
-  }
+    extensions: ['.js', '.jsx'],
+  },
+  devServer: {
+    historyApiFallback: true,
+  },
 };
