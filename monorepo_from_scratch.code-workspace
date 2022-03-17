@@ -8,6 +8,10 @@
       "name": "📦 component-libs",
       "path": "./packages/component-libs"
     },
+    {
+      "name": "🔧 utility",
+      "path": "./packages/utility"
+    },
   ],
   "settings": {
     "emmet.includeLanguages": {
