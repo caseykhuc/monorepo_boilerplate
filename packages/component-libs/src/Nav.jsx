@@ -12,7 +12,7 @@ function NavItem({ children, to }) {
 
 export default function Nav() {
   return (
-    <Flex style={{ gap: 16 }}>
+    <Flex gap={16} className="nav">
       <NavItem to="/">Form</NavItem>
       <NavItem to="/photos">Photography</NavItem>
     </Flex>

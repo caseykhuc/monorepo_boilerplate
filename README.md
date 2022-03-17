@@ -7,8 +7,8 @@ A personal project that initalize a monorepo from scratch, using `lerna` and `ya
 - [x] Add a utility package
 - [x] Import the utility into the web portal
 - [ ] Webpack plugin / loader
-    - [ ] CSS / image loader
-    - [ ] File loader
+    - [x] CSS loader
+    - [x] image / file loader
 - [ ] Babel preset / plugin
 - [ ] Fast refresh
 - [ ] Plugins related to environment variable

@@ -1,0 +1,5 @@
+.nav {
+  background-color: var(--chakra-colors-red-100);
+  padding-block: 16px;
+  justify-content: center;
+}
