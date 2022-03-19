@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Main from './Main';
 import Nav from './Nav';
 import Photos from './Photos';
-import '../assets/styles/custom.css';
+import 'assets/styles/custom.css';
 
 function App() {
   return (

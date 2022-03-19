@@ -9,6 +9,7 @@ A personal project that initalize a monorepo from scratch, using `lerna` and `ya
 - [ ] Webpack plugin / loader
     - [x] CSS loader
     - [x] image / file loader
+- [x] Relative imports
 - [ ] Babel preset / plugin
 - [ ] Fast refresh
 - [ ] Plugins related to environment variable

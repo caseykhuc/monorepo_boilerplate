@@ -38,9 +38,7 @@ module.exports = {
   },
   plugins: [htmlPlugin],
   resolve: {
-    alias: {
-      components: path.resolve(__dirname, 'src/components'),
-    },
+    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
     extensions: ['.js', '.jsx'],
   },
   devServer: {
