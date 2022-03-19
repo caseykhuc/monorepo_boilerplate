@@ -13,7 +13,7 @@ export default function Main() {
         <Details />
       </VStack>
       <VStack w="full" h="full" p={10} spacing={10} alignItems="flex-start" bg="gray.50">
-        <div>Cart</div>
+        <Heading>Utility Test</Heading>
         <div>
           <Heading size="md">Original</Heading>
           <Text>{string}</Text>

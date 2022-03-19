@@ -8,6 +8,7 @@ const DUMMY_IMAGE_SRC = 'DUMMY_IMAGE_SRC';
 
 const importAll = (r) => r.keys().map(r);
 const photos = importAll(require.context('../assets/images/', false, /\.(png|jpe?g|svg)$/i));
+
 if (photos.length % 3 === 1) {
   photos.push(`${DUMMY_IMAGE_SRC}_1`);
   photos.push(`${DUMMY_IMAGE_SRC}_2`);

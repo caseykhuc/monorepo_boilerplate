@@ -11,7 +11,7 @@ A personal project that initalize a monorepo from scratch, using `lerna` and `ya
     - [x] image / file loader
 - [x] Relative imports
 - [ ] Babel preset / plugin
-- [ ] Fast refresh
+- [x] Fast refresh
 - [ ] Plugins related to environment variable
 - [ ] Set up jest
     - [ ] Jest has its own Babel loader
