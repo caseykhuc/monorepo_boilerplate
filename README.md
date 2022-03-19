@@ -15,3 +15,4 @@ A personal project that initalize a monorepo from scratch, using `lerna` and `ya
 - [ ] Plugins related to environment variable
 - [ ] Set up jest
     - [ ] Jest has its own Babel loader
+    - [ ] Write a test suite
